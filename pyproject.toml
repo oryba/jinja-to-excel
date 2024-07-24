@@ -1,12 +1,12 @@
 [tool.poetry]
-name = "jinja-excel-template"
-version = "1.0.4"
-description = "Jinja based Excel Template support multiple sheets"
-authors = ["AlexYeung <hkalex@gmail.com>"]
+name = "jinja-to-excel"
+version = "0.1.0"
+description = "Jinja based Excel Template supporting multiple sheets"
+authors = ["Oleh Rybalchenko <rv.oleg.ua@gmail.com>", "Oleksii Shevtsov <muslyaster@gmail.com>"]
 readme = "README.md"
 license = "MIT"
-homepage = "https://github.com/hkalex/jinja-excel-template"
-repository = "https://github.com/hkalex/jinja-excel-template"
+homepage = "https://github.com/oryba/jinja-to-excel"
+repository = "https://github.com/oryba/jinja-to-excel"
 keywords = ["jinja", "excel", "template", "engine", "xlsx", "multi-sheet", "multiple sheets", "dynamic sheets"]
 
 
