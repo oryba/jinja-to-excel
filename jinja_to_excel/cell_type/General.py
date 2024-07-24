@@ -1,5 +1,5 @@
 from openpyxl.worksheet.worksheet import Worksheet
-from jinja_excel_template.helper.GetFont import get_font
+from jinja_to_excel.helper.GetFont import get_font
 
 
 class General:

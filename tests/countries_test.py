@@ -1,6 +1,6 @@
 from os import path
 import json
-from jinja_excel_template.JinjaExcelEngine import JinjaExcelEngine
+from jinja_to_excel.JinjaExcelEngine import JinjaExcelEngine
 
 def test_countries():
     data = prepare_data()

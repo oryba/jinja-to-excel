@@ -1,6 +1,6 @@
 from openpyxl.worksheet.worksheet import Worksheet
 from dateutil.parser import parse
-from jinja_excel_template.helper.utils import is_date
+from jinja_to_excel.helper.utils import is_date
 
 
 class DateTime:

@@ -1,4 +1,4 @@
-from jinja_excel_template.ExcelGenerator import ExcelGenerator
+from jinja_to_excel.ExcelGenerator import ExcelGenerator
 import os
 
 dir_path = os.path.dirname(os.path.realpath(__file__))

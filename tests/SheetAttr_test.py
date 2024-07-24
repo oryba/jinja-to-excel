@@ -1,4 +1,4 @@
-from jinja_excel_template.helper.setSheetAttr import set_sheet_attr
+from jinja_to_excel.helper.setSheetAttr import set_sheet_attr
 from lxml import etree
 from openpyxl.worksheet.worksheet import Worksheet
 from openpyxl import Workbook

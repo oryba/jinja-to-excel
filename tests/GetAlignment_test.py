@@ -1,4 +1,4 @@
-from jinja_excel_template.helper.GetAlignment import get_alignment
+from jinja_to_excel.helper.GetAlignment import get_alignment
 from lxml import etree
 
 def test_get_alignment():
