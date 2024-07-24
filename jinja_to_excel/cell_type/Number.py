@@ -15,7 +15,7 @@ class Number:
         if is_float(str_value):
             float_value = float(str_value)
             if float_value.is_integer():
-                worksheet.cell(row, column, int(str_value))
+                worksheet.cell(row, column, int(float_value))
             else:
                 worksheet.cell(row, column, float_value)
         else:
