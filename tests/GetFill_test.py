@@ -1,4 +1,4 @@
-from jinja_excel_template.helper.GetFill import get_fill
+from jinja_to_excel.helper.GetFill import get_fill
 from lxml import etree
 
 def test_get_font():

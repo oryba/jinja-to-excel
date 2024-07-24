@@ -4,13 +4,13 @@ from openpyxl import Workbook
 import json
 
 from importlib import import_module
-from jinja_excel_template.helper.setSheetAttr import set_sheet_attr
-from jinja_excel_template.helper.setCellStyle import set_cell_style
+from jinja_to_excel.helper.setSheetAttr import set_sheet_attr
+from jinja_to_excel.helper.setCellStyle import set_cell_style
 from openpyxl.utils import get_column_letter
 from openpyxl.worksheet.worksheet import Worksheet
-from jinja_excel_template.helper.MergeCell import merge_cell
+from jinja_to_excel.helper.MergeCell import merge_cell
 
-from jinja_excel_template.helper.DimensionHelper import set_column_row_dimensions
+from jinja_to_excel.helper.DimensionHelper import set_column_row_dimensions
 
 
 
@@ -63,7 +63,7 @@ class ExcelGenerator:
 
                     # This only loads the class in the cell_type folder
                     # This can be future extendable
-                    cell_type_class = self.__find_class('jinja_excel_template.cell_type.' + cell_type_name + '.' + cell_type_name)
+                    cell_type_class = self.__find_class('jinja_to_excel.cell_type.' + cell_type_name + '.' + cell_type_name)
 
                     cell_type_handler = cell_type_class()
                     cell_type_handler.set_cell(worksheet, row_index+1, cell_index+1, xml_cell)

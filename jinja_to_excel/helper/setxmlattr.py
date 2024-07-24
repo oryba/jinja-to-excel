@@ -1,4 +1,4 @@
-from jinja_excel_template.helper.typeconverter import str2bool
+from jinja_to_excel.helper.typeconverter import str2bool
 import inspect
 
 def setxmlattr(obj, xml_node, prefix:str):

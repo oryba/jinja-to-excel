@@ -1,4 +1,4 @@
-from jinja_excel_template.helper.GetBorder import get_border
+from jinja_to_excel.helper.GetBorder import get_border
 from lxml import etree
 
 def test_get_font():

@@ -1,5 +1,5 @@
 from openpyxl.styles import Alignment
-from jinja_excel_template.helper.setxmlattr import setxmlattr
+from jinja_to_excel.helper.setxmlattr import setxmlattr
 
 def get_alignment(xml_cell):
     alignment = Alignment()

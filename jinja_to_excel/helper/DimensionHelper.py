@@ -1,7 +1,7 @@
 from openpyxl.worksheet.worksheet import Worksheet
 from lxml.etree import _Element
 from openpyxl.utils import get_column_letter
-from jinja_excel_template.helper.typeconverter import str2bool
+from jinja_to_excel.helper.typeconverter import str2bool
 
 def set_column_row_dimensions(ws:Worksheet, xml_sheet:_Element):
     """

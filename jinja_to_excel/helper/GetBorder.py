@@ -1,5 +1,5 @@
 from openpyxl.styles import Border, Side
-from jinja_excel_template.helper.setxmlattr import setxmlattr
+from jinja_to_excel.helper.setxmlattr import setxmlattr
 
 def get_border(xml_cell):
 

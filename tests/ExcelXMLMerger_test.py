@@ -1,4 +1,4 @@
-from jinja_excel_template.ExcelXMLMerger import ExcelXMLMerger
+from jinja_to_excel.ExcelXMLMerger import ExcelXMLMerger
 import os
 
 dir_path = os.path.dirname(os.path.realpath(__file__))

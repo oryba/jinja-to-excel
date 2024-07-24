@@ -2,8 +2,8 @@ from openpyxl.worksheet.worksheet import Worksheet
 from openpyxl.chartsheet.chartsheet import Chartsheet
 from openpyxl.chart import (AreaChart as PYAreaChart, Reference)
 from openpyxl.utils import get_column_letter
-from jinja_excel_template.helper.setxmlattr import setxmlattr
-from jinja_excel_template.helper.typeconverter import str2bool
+from jinja_to_excel.helper.setxmlattr import setxmlattr
+from jinja_to_excel.helper.typeconverter import str2bool
 
 class Chart:
     """

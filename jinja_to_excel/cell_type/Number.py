@@ -1,7 +1,7 @@
 from openpyxl.worksheet.worksheet import Worksheet
-from jinja_excel_template.helper.GetFont import get_font
+from jinja_to_excel.helper.GetFont import get_font
 
-from jinja_excel_template.helper.utils import is_float
+from jinja_to_excel.helper.utils import is_float
 
 
 class Number:
