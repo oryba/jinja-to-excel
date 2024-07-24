@@ -79,7 +79,7 @@
             <cell value="2-C3" />
         </row>
         <row>
-            <cell type="Number" value="123" number_format="0.00" />
+            <cell type="Number" value="123.0" number_format="0.00" />
         </row>
     </sheet>
     <sheet sheet_name="ImageTest" print_area="A1:L10" print_header="1:2">
